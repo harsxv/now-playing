@@ -1,7 +1,7 @@
 import { VercelRequest, VercelResponse } from "@vercel/node";
 import { renderToString } from "react-dom";
 import { decode } from "querystring";
-import { Player } from "./components/NowPlaying";
+import { Player } from "../components/NowPlaying";
 import { nowPlaying } from "../utils/spotify";
 
 export default async function (req: VercelRequest, res: VercelResponse) {
