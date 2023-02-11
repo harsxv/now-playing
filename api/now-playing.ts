@@ -1,5 +1,5 @@
 import { VercelRequest, VercelResponse } from "@vercel/node";
-import { renderToString } from "react-dom";
+import { renderToString } from "react-dom/server";
 import { decode } from "querystring";
 import { Player } from "../components/NowPlaying";
 import { nowPlaying } from "../utils/spotify";
