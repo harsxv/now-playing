@@ -8,10 +8,13 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
+  "files": [
+    "NowPlaying.tsx"
+  ],
   "include": [
     "components/*.tsx"
   ],
   "exclude": [
     "node_modules"
   ]
-}
+}kkkk
